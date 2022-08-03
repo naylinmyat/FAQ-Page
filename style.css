@@ -1,0 +1,49 @@
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+    background: cadetblue;
+}
+
+#pageContainer{
+    width: 60%;
+}
+h1{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.list{
+    width: 90%;
+    padding: 3% 5%;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 1px #666565;
+    border-radius: 8px;
+    margin-top: 3%;
+    background: white;
+}
+.quesAndAns{
+    margin-top: 0.5rem;
+}
+.plusIcon,
+.minusIcon{
+    margin-right: 3%;
+    font-size: 2rem;
+}
+.minusIcon{
+    color: red;
+}
+.answer{
+    margin-top: 4%;
+}
